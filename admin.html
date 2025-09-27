@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Admin Dashboard</h2>
+    <button onclick="logout()">Logout</button>
+
+    <h3>Manage Food Menu</h3>
+    <textarea id="menuText" rows="5" cols="40"></textarea>
+    <br>
+    <button onclick="updateMenu()">Update Menu</button>
+
+    <h3>Manage Cleaning Schedule</h3>
+    <textarea id="cleaningText" rows="5" cols="40"></textarea>
+    <br>
+    <button onclick="updateCleaning()">Update Schedule</button>
+
+    <h3>Guest List</h3>
+    <ul id="guestList"></ul>
+
+    <h3>Vacation Requests</h3>
+    <ul id="vacationList"></ul>
+
+    <h3>Reported Issues</h3>
+    <ul id="issueList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
